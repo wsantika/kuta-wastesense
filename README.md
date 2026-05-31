@@ -1,8 +1,8 @@
 # ♻️ Kuta WasteSense AI
 
 > **From Reactive Cleanup to Predictive Waste Planning**
-> 
-> 🏗️ *MVP Prototype — Synthetic Data*
+>
+> 🏗️ _MVP Prototype — Synthetic Data_
 
 Kuta WasteSense AI is an AI-powered waste volume prediction and operational readiness dashboard for **Kuta Beach, Bali**. It predicts daily waste volume per zone using historical waste patterns, weather conditions, holidays, events, visitor estimates, and zone characteristics, then recommends sanitation staff, additional bins, collection trucks, and optimized collection schedules.
 
@@ -26,6 +26,11 @@ kuta-wastesense-ai/
     ├── recommender.py                      # Rule-based recommendation engine
     └── utils.py                            # Constants & helpers
 ```
+
+---
+
+Recommended Demo: Streamlit MVP Prototype <br>
+Advanced/Experimental: React + FastAPI Dashboard
 
 ---
 
@@ -101,16 +106,16 @@ Open the URL shown in your terminal (usually `http://localhost:8501`).
 
 ## 🖥️ Dashboard Features
 
-| Feature | Description |
-|---------|-------------|
-| **Prediction Input** | Select zone, date, weather, event type, visitors, etc. |
-| **Predicted Waste Volume** | AI-predicted waste in kg for the given scenario |
-| **Risk Level** | 🟢 Low / 🟡 Medium / 🔴 High |
-| **Operational Recommendations** | Staff, bins, trucks, and collection schedule |
-| **Executive Summary** | Plain-English summary paragraph |
-| **Zone Analytics** | Bar chart of average waste volume per zone |
-| **7-Day Trend** | Area chart showing recent daily totals |
-| **Scenario Comparison** | Side-by-side table for Normal / Rainy / Event scenarios |
+| Feature                         | Description                                             |
+| ------------------------------- | ------------------------------------------------------- |
+| **Prediction Input**            | Select zone, date, weather, event type, visitors, etc.  |
+| **Predicted Waste Volume**      | AI-predicted waste in kg for the given scenario         |
+| **Risk Level**                  | 🟢 Low / 🟡 Medium / 🔴 High                            |
+| **Operational Recommendations** | Staff, bins, trucks, and collection schedule            |
+| **Executive Summary**           | Plain-English summary paragraph                         |
+| **Zone Analytics**              | Bar chart of average waste volume per zone              |
+| **7-Day Trend**                 | Area chart showing recent daily totals                  |
+| **Scenario Comparison**         | Side-by-side table for Normal / Rainy / Event scenarios |
 
 ---
 
